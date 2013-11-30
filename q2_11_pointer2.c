@@ -18,4 +18,6 @@ int main(void){
   swap(firstnum, secondnum);
   printf("%i\n", *firstnum);
   printf("%i\n", *secondnum);
+  free(firstnum);
+  free(secondnum); //Good practice
 }
